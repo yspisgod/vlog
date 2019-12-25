@@ -1,0 +1,2 @@
+# vlog
+这是一个用于自己上传视频保存的小网站，采用springboot搭建，目前正在慢慢的整合springcloud
