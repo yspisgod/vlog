@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>myVlog</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <style type="text/css">
+        html, body { height: 100%; padding: 0; margin: 0; }
+        .outer { height: 100%; padding: 100px 0 0; box-sizing: border-box ; position: relative; }
+        .A { height: 100px; background: #BBE8F2; position: absolute; top: 0 ; left: 0 ; width: 100%; }
+        .B { height: 100%; background: #D9C666; }
+        #upload {
+            position:absolute;
+            top:50%;
+            left:50%;
+            margin:-150px 0 0 -200px;
+            width:400px;
+            height:300px;
+            border:1px solid #008800;
+            font-size: 40px;
+        }
+        #file{
+            margin-top: 200px;
+            width: 100%;
+            height: 300px;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+<div class="outer">
+    <div class="A"><P id="process" style="font-size: 50px" >
+        请上传文件
+    </P></div>
+    <div class="B">
+        <input type="file" id="file" class="">
+        <button class="btn-danger" id="upload">上传文件</button>
+    </div>
+</div>
+
+<script rel="stylesheet" type="text/javascript" src="jquery.js"></script>
+<script  rel="stylesheet" type="text/javascript" src="bootstrap.min.js"></script>
+<script  rel="stylesheet" type="text/javascript"  src="logic.js"></script>
+
+</body>
+</html>
